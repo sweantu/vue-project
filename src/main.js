@@ -2,6 +2,7 @@
 
 import { createApp } from 'vue'
 import Register from './Register.vue'
+import Login from './Login.vue'
 import './index.css'
 
-createApp(Register).mount('#app')
+createApp(Login).mount('#app')
