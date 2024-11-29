@@ -35,6 +35,11 @@
                     {{ isLoading ? "Submiting..." : "Submit" }}
                 </button>
             </form>
+            <p class=" text-center text-sm mt-2"> Don't have an account yet?
+                <span class="cursor-pointer text-blue-500">
+                    <RouterLink to="/register">Create an Account</RouterLink>
+                </span>
+            </p>
         </div>
     </div>
 </template>

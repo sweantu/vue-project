@@ -57,6 +57,9 @@
                     {{ isLoading ? "Submitting..." : "Submit" }}
                 </button>
             </form>
+            <p class=" text-center text-sm mt-2">Already have an account? <span class="cursor-pointer text-blue-500">
+                    <RouterLink to="/login">Login</RouterLink>
+                </span></p>
         </div>
     </div>
 </template>
