@@ -1,8 +1,7 @@
 <template>
-    <!-- <p>
-        <strong>Current route path:</strong> {{ $route.fullPath }}
-    </p> -->
-    <main>
+    <div>
         <RouterView />
-    </main>
+    </div>
 </template>
+<script setup>
+</script>
